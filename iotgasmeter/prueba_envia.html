@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envia datos</title>
+</head>
+<body>
+    Hola Mundo
+    <form action="prueba_recibe.php" method="POST">
+        
+        <label>idDispositivo:</label>
+        <input type="text" name="idDispositivo"><br>
+
+        <label>v_leido:</label>
+        <input type="text" name="v_leido"><br>
+
+        <!--<label>consumo:</label>
+        <input type="text" name="consumo"><br> *EN CASO DE INGRESAR EL CONSUMO COMO OTRA VARIABLE LEIDA DESDE FUERA*-->
+
+        <input type="submit" value="Enviar Datos">
+
+    </form>   
+</body>
+</html>
